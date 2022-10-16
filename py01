@@ -1,0 +1,25 @@
+#Unit03
+print('Hello, world!')
+print('Hello, world!')
+
+#Unit05
+print(102 * 0.6 + 225)
+
+#Unit06-1
+a = 50
+b = 100
+c = None
+
+print(a)
+print(b)
+print(c)
+
+#Unit06-2
+a, b, c, d = map(int, input().split())
+print((a + b + c + d) //4)
+
+#Unit07
+year, month, day, hour, minute, second = input().split()
+
+print(year, month, day, sep='-', end='T')
+print(hour, minute, second, sep=':')
